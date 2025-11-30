@@ -1,2 +1,2 @@
 # Create-Account-and-Login-Design
-this design is build in HTML,CSS,JavaScript.
+this design was built in HTML,CSS,JavaScript.

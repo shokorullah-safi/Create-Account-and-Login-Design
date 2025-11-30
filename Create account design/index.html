@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="form-section">
+        <h1>Create account</h1>
+        <p class="subtitle">Let’s get started with your 30 days trial</p>
+
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+
+            <div class="password-box">
+                <input type="password" id="password" placeholder="Password" required>
+                <span class="toggle-password" onclick="togglePassword()">👁️</span>
+            </div>
+
+            <button type="submit" class="btn">Create account</button>
+        </form>
+
+        <p class="login-text">Already have an account? <a href="#">Login</a></p>
+
+        <div class="social-row">
+            <div class="social-btn"><img src="https://img.icons8.com/color/48/google-logo.png"></div>
+            <div class="social-btn apple"><img src="https://img.icons8.com/ios-filled/50/mac-os.png"></div>
+            <div class="social-btn"><img src="https://img.icons8.com/color/48/facebook-new.png"></div>
+        </div>
+    </div>
+
+    <div class="image-section">
+       <img src="images/danish.jpg" alt="Illustration">
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

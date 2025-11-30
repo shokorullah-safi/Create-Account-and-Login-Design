@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- Left Section -->
+    <div class="form-section">
+        <h1>Login</h1>
+        <p class="subtitle">Welcome back, login to your account</p>
+
+        <form>
+            <input type="email" placeholder="Email">
+
+            <div class="password-box">
+                <input type="password" id="loginPassword" placeholder="Password">
+                <span class="toggle-password" onclick="togglePassword('loginPassword')">👁️</span>
+            </div>
+
+            <button class="btn">Login</button>
+        </form>
+
+        <p class="switch-text">Don't have an account? <a href="index.html">Create account</a></p>
+    </div>
+
+    <!-- Right Section -->
+    <div class="image-section">
+        <img src="images/danish.jpg" alt="Illustration">
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
